@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Open Graph Meta Tags -->
+  <title>Creative Graphic Designer — Professional Visual Design & Brand Identity</title>
+  <meta name="description" content="Professional Graphic Designer specializing in brand identity, logo design, packaging, print design, social media assets, and editorial typography.">
+  <meta name="keywords" content="Graphic Designer, Brand Identity, Logo Design, Packaging Design, Print Design, Poster Design, Social Media Design, Photoshop, Illustrator, InDesign">
+  <meta name="author" content="Alex Morgan">
+  <meta property="og:title" content="Creative Graphic Designer — Portfolio">
+  <meta property="og:description" content="Crafting distinctive brand identities, packaging, posters, and high-impact visual design systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- ================= 1. HEADER / NAVBAR ================= -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Alex Morgan - Home">
+        <div class="brand-symbol">✦</div>
+        <span>ALEX MORGAN</span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta-group">
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= 2. HERO / HOME SECTION ================= -->
+  <section id="home" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-text-col">
+        <div class="hero-tag-badge">
+          <span class="pulse-dot"></span>
+          <span>Available for Freelance & Contract Commissions</span>
+        </div>
+
+        <h1 class="heading-display hero-title">
+          Creative <span class="accent-text">Graphic Designer</span>
+        </h1>
+
+        <p class="hero-description">
+          I create professional visual designs and brand experiences that captivate audiences, elevate brands, and communicate compelling visual stories through typography, packaging, and strategic print systems.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">View My Work <span>↓</span></a>
+          <a href="#contact" class="btn btn-secondary">Hire Me <span>→</span></a>
+        </div>
+      </div>
+
+      <!-- Right Graphic Design Showcase Visual -->
+      <div class="hero-visual-card">
+        <div class="hero-artwork-frame">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" alt="Graphic Design Portfolio Visual Showcase">
+          <div class="hero-artwork-overlay"></div>
+          <div class="hero-artwork-caption">
+            <div>
+              <div class="caption-title">Atelier Visual Identity</div>
+              <div class="caption-subtitle">Brand System & Custom Print Collateral</div>
+            </div>
+            <span class="section-tag" style="margin: 0; padding: 4px 12px; font-size: 0.72rem;">Featured</span>
+          </div>
+        </div>
+
+        <div class="floating-pill pill-top">
+          <span style="font-size: 1.3rem;">✦</span>
+          <div>
+            <div style="font-size: 0.85rem; font-weight: 700;">Vector Mastery</div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary);">Illustrator & Photoshop</div>
+          </div>
+        </div>
+
+        <div class="floating-pill pill-bottom">
+          <span style="font-size: 1.3rem;">★</span>
+          <div>
+            <div style="font-size: 0.85rem; font-weight: 700;">Top Rated Designer</div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary);">100% Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 10. EXPERIENCE / ACHIEVEMENTS SECTION ================= -->
+  <section class="achievements-section">
+    <div class="container">
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-number">8+</div>
+          <div class="achievement-label">Years of Experience</div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-number">250+</div>
+          <div class="achievement-label">Completed Projects</div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-number">180+</div>
+          <div class="achievement-label">Happy Clients</div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-number">14</div>
+          <div class="achievement-label">Design Awards</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 4. PORTFOLIO SECTION ================= -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Featured Gallery</div>
+        <h2 class="heading-section">Selected <span class="gradient-text">Graphic Design Works</span></h2>
+        <p class="section-subtitle">A curated collection of logos, brand identities, editorial prints, packaging, and digital promotional assets.</p>
+      </div>
+
+      <!-- Category Filter Buttons -->
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+        <button class="filter-btn" data-filter="posters">Posters</button>
+        <button class="filter-btn" data-filter="print">Print Design</button>
+        <button class="filter-btn" data-filter="packaging">Packaging</button>
+        <button class="filter-btn" data-filter="thumbnails">Thumbnails</button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="portfolio-grid">
+        <!-- 1. Aurora Coffee -->
+        <article class="project-card" data-category="branding packaging" data-project="aurora-coffee">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Branding & Pack</span>
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop" alt="Aurora Artisan Coffee Co. Branding">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Branding / Packaging</div>
+            <h3 class="project-title">Aurora Artisan Coffee Co.</h3>
+            <p class="project-desc">Complete brand identity overhaul and retail packaging design for an artisanal specialty roastery.</p>
+          </div>
+        </article>
+
+        <!-- 2. Metropolis Poster -->
+        <article class="project-card" data-category="posters" data-project="metropolis-poster">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Posters</span>
+            <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=800&auto=format&fit=crop" alt="Metropolis Jazz & Sound Festival Poster">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Posters / Typography</div>
+            <h3 class="project-title">Metropolis Jazz Festival</h3>
+            <p class="project-desc">Screen-printed promotional poster series featuring high-contrast Swiss typography and rhythm glyphs.</p>
+          </div>
+        </article>
+
+        <!-- 3. Solaris Social -->
+        <article class="project-card" data-category="social" data-project="solaris-social">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Social Media</span>
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" alt="Solaris Apparel Social Media Campaign Kit">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Social Media Design</div>
+            <h3 class="project-title">Solaris Apparel Campaign</h3>
+            <p class="project-desc">35+ high-converting promotional Instagram posts, story templates, and digital sales banners.</p>
+          </div>
+        </article>
+
+        <!-- 4. Botanica Packaging -->
+        <article class="project-card" data-category="packaging" data-project="botanica-skincare">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Packaging</span>
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop" alt="Botanica Luxury Skincare Line Packaging">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Packaging Design</div>
+            <h3 class="project-title">Botanica Skincare Line</h3>
+            <p class="project-desc">Sustainable cosmetic bottle labels and outer box packaging with blind embossing and foil details.</p>
+          </div>
+        </article>
+
+        <!-- 5. Altitude Print -->
+        <article class="project-card" data-category="print" data-project="altitude-print">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Print Design</span>
+            <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop" alt="Altitude Magazine & Editorial Brochure">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Print Design / Brochure</div>
+            <h3 class="project-title">Altitude Editorial Brochure</h3>
+            <p class="project-desc">64-page premium print catalog and corporate brochure with strict Swiss grid discipline.</p>
+          </div>
+        </article>
+
+        <!-- 6. Apex Thumbnails -->
+        <article class="project-card" data-category="thumbnails" data-project="apex-thumbnail">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Thumbnails</span>
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop" alt="Apex Tech YouTube Thumbnail Series">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">YouTube Thumbnails</div>
+            <h3 class="project-title">Apex Tech Review Series</h3>
+            <p class="project-desc">High-CTR YouTube thumbnail package engineered with expressive subject retouching and vivid contrast.</p>
+          </div>
+        </article>
+
+        <!-- 7. Vanguard Identity -->
+        <article class="project-card" data-category="branding print" data-project="vanguard-identity">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Branding</span>
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=800&auto=format&fit=crop" alt="Vanguard Legal Business Stationery">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Business Cards & Stationery</div>
+            <h3 class="project-title">Vanguard Legal Identity</h3>
+            <p class="project-desc">Corporate monogram and luxury gold-foiled 600gsm business stationery for legal consultants.</p>
+          </div>
+        </article>
+
+        <!-- 8. Summit Flyer -->
+        <article class="project-card" data-category="print posters" data-project="summit-flyer">
+          <div class="project-thumb-box">
+            <span class="project-badge-tag">Flyer & Banner</span>
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop" alt="Global Design Summit Event Flyer & Banner">
+            <div class="project-overlay">
+              <span class="overlay-btn">View Case Study ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-category-row">Flyers & Event Banners</div>
+            <h3 class="project-title">Design Summit Event Flyer</h3>
+            <p class="project-desc">Double-sided marketing flyer and venue roll-up banner design for an international creative summit.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Project Case Study Modal ================= -->
+  <div id="projectModal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-container">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close Project Modal">✕</button>
+      <img id="modalHeroImg" class="modal-hero-img" src="" alt="Project Presentation">
+
+      <div class="modal-body">
+        <div class="modal-badge-row">
+          <span id="modalCategory" class="section-tag" style="margin: 0; padding: 4px 14px; font-size: 0.78rem;">Category</span>
+        </div>
+
+        <h2 id="modalTitle" class="modal-title">Project Title</h2>
+        <p id="modalDesc" class="modal-desc">Project comprehensive description...</p>
+
+        <div class="modal-detail-grid">
+          <div class="modal-detail-box">
+            <h4><span>✦</span> Design Process</h4>
+            <p id="modalProcess">Step-by-step design process...</p>
+          </div>
+          <div class="modal-detail-box">
+            <h4><span>★</span> Final Result</h4>
+            <p id="modalResult">Measurable result achieved...</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px;">
+          <h4 style="font-family: var(--font-heading); color: #ffffff; margin-bottom: 8px;">Tools Used</h4>
+          <div id="modalTools" class="modal-tags-list"></div>
+        </div>
+
+        <div style="text-align: center; margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--border-subtle);">
+          <a href="#contact" class="btn btn-primary" onclick="document.getElementById('projectModal').classList.remove('open'); document.body.classList.remove('no-scroll');">
+            Commission Similar Project ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= 3. SERVICES SECTION (11 Services) ================= -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Services</div>
+        <h2 class="heading-section">Professional <span class="gradient-text">Graphic Design Services</span></h2>
+        <p class="section-subtitle">Dedicated creative visual design solutions tailored for businesses, content creators, and agencies.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1. Logo Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+          </div>
+          <h3 class="service-title">Logo Design</h3>
+          <p class="service-desc">Distinctive, memorable logos and wordmarks created with vector precision to represent your brand’s core essence across all media.</p>
+        </div>
+
+        <!-- 2. Brand Identity -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 12h8M12 8v8"></path></svg>
+          </div>
+          <h3 class="service-title">Brand Identity</h3>
+          <p class="service-desc">Complete visual identity packages including brand guidelines, typography scales, color harmony palettes, and stationery suites.</p>
+        </div>
+
+        <!-- 3. Social Media Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </div>
+          <h3 class="service-title">Social Media Design</h3>
+          <p class="service-desc">High-engagement Instagram carousels, feed posts, story graphics, and LinkedIn promotional assets that stop the scroll.</p>
+        </div>
+
+        <!-- 4. Poster Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="10" x2="16" y2="10"></line><line x1="8" y1="14" x2="12" y2="14"></line></svg>
+          </div>
+          <h3 class="service-title">Poster Design</h3>
+          <p class="service-desc">Artistic and promotional posters for music festivals, theatrical events, art galleries, and corporate product unveilings.</p>
+        </div>
+
+        <!-- 5. Flyer Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          </div>
+          <h3 class="service-title">Flyer Design</h3>
+          <p class="service-desc">Single and double-sided promotional flyers designed for direct mail, event distribution, club nights, and trade exhibits.</p>
+        </div>
+
+        <!-- 6. Business Card Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><line x1="6" y1="9" x2="10" y2="9"></line><line x1="6" y1="13" x2="14" y2="13"></line></svg>
+          </div>
+          <h3 class="service-title">Business Card Design</h3>
+          <p class="service-desc">Luxury, minimalist, and textured business cards with special finishes (hot foil stamping, spot UV, letterpress, embossed edges).</p>
+        </div>
+
+        <!-- 7. Brochure Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <h3 class="service-title">Brochure Design</h3>
+          <p class="service-desc">Multi-page corporate brochures, bi-fold/tri-fold pamphlets, and product catalogs formatted with pristine editorial hierarchy.</p>
+        </div>
+
+        <!-- 8. Packaging Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
+          </div>
+          <h3 class="service-title">Packaging Design</h3>
+          <p class="service-desc">Shelf-ready packaging boxes, bottle labels, retail pouches, and dieline engineering aligned with print manufacturing standards.</p>
+        </div>
+
+        <!-- 9. YouTube Thumbnail Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"></rect><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+          </div>
+          <h3 class="service-title">YouTube Thumbnail Design</h3>
+          <p class="service-desc">High-CTR, clickable YouTube thumbnails featuring vivid color grading, clear subject isolation, and bold legible focal text.</p>
+        </div>
+
+        <!-- 10. Banner Design -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="1"></rect><line x1="6" y1="12" x2="18" y2="12"></line></svg>
+          </div>
+          <h3 class="service-title">Banner Design</h3>
+          <p class="service-desc">Web advertising banners, digital display ads, roll-up trade show banners, and storefront signage designed for maximum impact.</p>
+        </div>
+
+        <!-- 11. Photo Editing & Retouching -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </div>
+          <h3 class="service-title">Photo Editing & Retouching</h3>
+          <p class="service-desc">Professional high-end photo retouching, color grading, background isolation, image restoration, and composite photo manipulation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 8. DESIGN PROCESS SECTION ================= -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">How I Work</div>
+        <h2 class="heading-section">My 4-Step <span class="gradient-text">Design Process</span></h2>
+        <p class="section-subtitle">A clear, collaborative methodology that guarantees consistency, strategic focus, and exceptional final deliverables.</p>
+      </div>
+
+      <div class="process-grid-4">
+        <!-- Step 1 -->
+        <div class="process-card">
+          <div class="process-step-badge">01</div>
+          <h3 class="process-card-title">Discover</h3>
+          <p class="process-card-desc">Understanding your vision, target audience, brand story, and aesthetic preferences through a structured creative questionnaire.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="process-card">
+          <div class="process-step-badge">02</div>
+          <h3 class="process-card-title">Concept</h3>
+          <p class="process-card-desc">Translating the creative brief into initial sketch directions, typography pairings, color schemes, and visual moodboards.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="process-card">
+          <div class="process-step-badge">03</div>
+          <h3 class="process-card-title">Design</h3>
+          <p class="process-card-desc">Refining the selected creative direction with meticulous vector craftsmanship, optical balance, and iterative client revisions.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="process-card">
+          <div class="process-step-badge">04</div>
+          <h3 class="process-card-title">Deliver</h3>
+          <p class="process-card-desc">Preparing clean, organized final vector assets, print-ready CMYK files, dielines, and web RGB assets with full commercial rights.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 5. ABOUT ME SECTION ================= -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-image-card">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop" alt="Alex Morgan - Creative Graphic Designer">
+        <div class="about-badge-seal">
+          <span class="seal-num">8+</span>
+          <span class="seal-text">Years of Craft</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="section-tag">About Me</div>
+        <h2 class="heading-section" style="margin-bottom: 18px;">
+          Passionate About <span class="gradient-text">Visual Craft</span> & Strategic Clarity.
+        </h2>
+        <p class="about-bio-lead">
+          Hello! I’m Alex Morgan, a dedicated Graphic Designer with over 8 years of experience creating compelling identities, packaging, and print publications.
+        </p>
+        <p class="about-bio-body">
+          <strong>Design Philosophy:</strong> Great graphic design is the intersection of thoughtful strategy and aesthetic rigor. I believe every brand mark and layout should possess clarity, purpose, and timelessness. My goal is to build visual systems that leave a lasting emotional impression and generate measurable business growth.
+        </p>
+
+        <div class="about-highlights-grid">
+          <div class="about-highlight-box">
+            <h5><span>✦</span> Proven Experience</h5>
+            <p>Over 250 completed design projects across retail, publishing, fashion, hospitality, and tech startups.</p>
+          </div>
+          <div class="about-highlight-box">
+            <h5><span>★</span> Core Specializations</h5>
+            <p>Logo Systems, Brand Identity, Packaging & Dielines, Editorial Books, Posters, and Social Assets.</p>
+          </div>
+        </div>
+
+        <div>
+          <a href="#contact" class="btn btn-primary">Let's Work Together <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 6. SKILLS & 7. SOFTWARE / TOOLS SECTION ================= -->
+  <section class="skills-tools-section">
+    <div class="container skills-tools-grid">
+      
+      <!-- 6. Graphic Design Skills -->
+      <div class="skills-column">
+        <div class="section-tag" style="margin-bottom: 8px;">Expertise</div>
+        <h3 class="heading-section" style="font-size: 1.8rem; margin-bottom: 8px;">Graphic Design Skills</h3>
+        <p style="font-size: 0.92rem; color: var(--text-secondary);">Core design disciplines mastered through continuous professional practice.</p>
+
+        <div class="skills-list">
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Logo Design</span>
+              <span>98%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 98%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Branding & Identity Systems</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Typography & Kerning</span>
+              <span>94%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 94%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Color Theory & Harmony</span>
+              <span>96%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 96%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Social Media Design</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Print Design & Prepress</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Packaging Design & Dielines</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Photo Editing & Retouching</span>
+              <span>93%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 93%;"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span>Layout & Grid Systems</span>
+              <span>96%</span>
+            </div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 96%;"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Software / Tools Section (Photoshop, Illustrator, InDesign, Canva ONLY) -->
+      <div class="tools-column">
+        <div class="section-tag" style="margin-bottom: 8px;">Software Stack</div>
+        <h3 class="heading-section" style="font-size: 1.8rem; margin-bottom: 8px;">Software & Tools</h3>
+        <p style="font-size: 0.92rem; color: var(--text-secondary);">Industry-standard graphic design software utilized daily for production.</p>
+
+        <div class="tools-grid">
+          <!-- Photoshop -->
+          <div class="tool-card">
+            <div class="tool-icon-circle tool-icon-ps">Ps</div>
+            <h4 class="tool-name">Adobe Photoshop</h4>
+            <div class="tool-purpose">Photo Retouching, Compositing & Thumbnails</div>
+          </div>
+
+          <!-- Illustrator -->
+          <div class="tool-card">
+            <div class="tool-icon-circle tool-icon-ai">Ai</div>
+            <h4 class="tool-name">Adobe Illustrator</h4>
+            <div class="tool-purpose">Vector Logos, Icons, Dielines & Badges</div>
+          </div>
+
+          <!-- InDesign -->
+          <div class="tool-card">
+            <div class="tool-icon-circle tool-icon-id">Id</div>
+            <h4 class="tool-name">Adobe InDesign</h4>
+            <div class="tool-purpose">Editorial Layouts, Books, Catalogs & Prepress</div>
+          </div>
+
+          <!-- Canva -->
+          <div class="tool-card">
+            <div class="tool-icon-circle tool-icon-cv">Cv</div>
+            <h4 class="tool-name">Canva</h4>
+            <div class="tool-purpose">Client Editable Kits & Quick Social Layouts</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 30px; padding: 20px; border-radius: var(--radius-md); background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-subtle);">
+          <div style="font-size: 0.85rem; font-weight: 700; color: #ffffff; margin-bottom: 6px;">Print & Prepress Standards</div>
+          <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+            CMYK color calibration, bleed setup, spot color separations (Pantone Matching System), and vector SVG/EPS delivery.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 9. TESTIMONIALS SECTION ================= -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Endorsements</div>
+        <h2 class="heading-section">Client <span class="gradient-text">Testimonials</span></h2>
+        <p class="section-subtitle">Real feedback from business owners, marketing managers, and creative directors.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="star-rating">★★★★★</div>
+          <p class="testimonial-quote">
+            "Alex developed our coffee brand identity and packaging from the ground up. The design stood out instantly on retail shelves and our sales surged by 140% in our first quarter. Outstanding work!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" class="author-avatar" alt="Astrid Lindqvist">
+            <div class="author-info">
+              <h5>Astrid Lindqvist</h5>
+              <span>Founder, Aurora Coffee Roasters</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="star-rating">★★★★★</div>
+          <p class="testimonial-quote">
+            "The YouTube thumbnails and social media templates Alex produced helped double our channel's click-through rate in just three weeks. Alex is reliable, fast, and understands graphic impact deeply."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" class="author-avatar" alt="Marcus Chen">
+            <div class="author-info">
+              <h5>Marcus Chen</h5>
+              <span>Head of Content, Apex Media</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="star-rating">★★★★★</div>
+          <p class="testimonial-quote">
+            "Alex designed our annual 64-page magazine catalog in Adobe InDesign. The typography, grid structure, and prepress quality were immaculate. Delivered on schedule without a single print error."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop" class="author-avatar" alt="Elena Rostova">
+            <div class="author-info">
+              <h5>Elena Rostova</h5>
+              <span>Brand Director, Altitude Lifestyle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 11. CONTACT / HIRE ME SECTION ================= -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-grid">
+      
+      <!-- Direct Contact Details -->
+      <div class="contact-details-col">
+        <div class="section-tag">Get in Touch</div>
+        <h2 class="heading-section">Let’s Start Your <span class="accent-text">Design Project</span>.</h2>
+        <p class="about-bio-body" style="margin-top: 14px;">
+          Looking for a custom logo, complete brand identity, packaging, or promotional print materials? Fill out the project inquiry form or reach out directly on WhatsApp.
+        </p>
+
+        <div class="contact-direct-cards">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/15553829014?text=Hi%20Alex,%20I%20am%20interested%20in%20hiring%20you%20for%20a%20graphic%20design%20project!" target="_blank" rel="noopener" class="direct-card whatsapp-card">
+            <div class="direct-icon">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </div>
+            <div class="direct-details">
+              <span class="direct-label">WhatsApp Quick Chat</span>
+              <span class="direct-val">+1 (555) 382-9014</span>
+            </div>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:alex.morgan.design@example.com" class="direct-card">
+            <div class="direct-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="direct-details">
+              <span class="direct-label">Direct Email</span>
+              <span class="direct-val">alex.morgan.design@example.com</span>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; font-weight: 700;">Connect on Social</div>
+          <div class="social-links-row">
+            <a href="https://behance.net" target="_blank" rel="noopener" class="social-pill-btn">Behance</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-pill-btn">Instagram</a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener" class="social-pill-btn">Dribbble</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inquiry Form -->
+      <div class="contact-form-wrapper">
+        <h3 class="heading-section" style="font-size: 1.8rem; margin-bottom: 8px;">Project Inquiry</h3>
+        <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 26px;">Complete this form to receive a tailored proposal and timeline estimate within 24 hours.</p>
+
+        <form id="projectInquiryForm">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-input" placeholder="e.g. sarah@brand.com" required>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label class="form-label">WhatsApp Number</label>
+              <input type="tel" class="form-input" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Service Required *</label>
+              <select class="form-select" required>
+                <option value="" disabled selected>Select a Service</option>
+                <option value="Logo Design">Logo Design</option>
+                <option value="Branding">Branding</option>
+                <option value="Social Media Design">Social Media Design</option>
+                <option value="Poster Design">Poster Design</option>
+                <option value="Packaging">Packaging</option>
+                <option value="Print Design">Print Design</option>
+                <option value="Thumbnail Design">Thumbnail Design</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label class="form-label">Estimated Budget</label>
+              <select class="form-select">
+                <option value="Under $50">Under $50</option>
+                <option value="$50-$100">$50 – $100</option>
+                <option value="$100-$250" selected>$100 – $250</option>
+                <option value="$250-$500">$250 – $500</option>
+                <option value="$500+">$500+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Desired Deadline</label>
+              <input type="text" class="form-input" placeholder="e.g. 2 weeks / Oct 15th">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Project Description *</label>
+            <textarea class="form-textarea" placeholder="Tell me about your brand, what you need designed, and any reference styles..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1rem; padding: 16px;">
+            Send Project Inquiry <span>→</span>
+          </button>
+
+          <div id="formFeedbackMsg" class="form-feedback-msg">
+            ✓ Thank you! Your project inquiry has been received. I will review your requirements and respond within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12. FLOATING WHATSAPP BUTTON ================= -->
+  <a href="https://wa.me/15553829014?text=Hi%20Alex,%20I'm%20viewing%20your%20graphic%20design%20portfolio%20and%20would%20love%20to%20discuss%20a%20project!" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    <div class="whatsapp-circle">
+      <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    </div>
+  </a>
+
+  <!-- ================= 13. FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-symbol">✦</div>
+            <span>ALEX MORGAN</span>
+          </div>
+          <p>Professional Graphic Designer specializing in brand identity, logo design, packaging, and high-impact print media.</p>
+          <a href="https://wa.me/15553829014" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="margin-top: 8px;">
+            WhatsApp Chat
+          </a>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Services List</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Logo Design</a></li>
+            <li><a href="#services">Brand Identity</a></li>
+            <li><a href="#services">Social Media Design</a></li>
+            <li><a href="#services">Poster & Flyer Design</a></li>
+            <li><a href="#services">Packaging & Dielines</a></li>
+            <li><a href="#services">YouTube Thumbnails</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Direct Inquiries</h4>
+          <ul class="footer-contact-items">
+            <li>Email: <a href="mailto:alex.morgan.design@example.com">alex.morgan.design@example.com</a></li>
+            <li>WhatsApp: <a href="https://wa.me/15553829014">+1 (555) 382-9014</a></li>
+            <li>Behance: <a href="https://behance.net" target="_blank" rel="noopener">behance.net/alexmorgan</a></li>
+            <li>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener">@alexmorgan.design</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Alex Morgan. All Rights Reserved.</p>
+        <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to Top">↑</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
